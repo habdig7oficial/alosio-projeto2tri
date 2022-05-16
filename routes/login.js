@@ -4,4 +4,11 @@ module.exports = function (app) {
         res.render("login.ejs")
     })
 
+
+    app.post("/login",function (req,res) {
+
+        
+
+    })
+
 }

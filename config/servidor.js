@@ -8,6 +8,8 @@ const consign = require("consign")
 
 let router = consign().include("./routes").into(app)
 
+const static = app.use(express.static("./assets"))
+
 module.exports = {app,porta}
 
 
