@@ -17,6 +17,9 @@
 
     <link rel="stylesheet" href="/CSS/style.css">
 
+
+    <script src="/JS/comparar.js"></script>
+
 </head>
 
 <body>
@@ -37,8 +40,8 @@
                     <input type="text" name="name" class="form-control m-3" placeholder="Nome" id="nome" required>
                     <input type="email" name="email" class="form-control m-3" placeholder="email" id="email" required>
                     
-                    <input type="password" name="senha" required class="form-control m-3" placeholder="senha" id="">
-                    <input type="password" name="senha-confirm" required class="form-control m-3" placeholder="confirmar a senha" id="">
+                    <input type="password" name="senha" required class="form-control m-3" placeholder="senha" id="senha" onchange="verificar">
+                    <input type="password" name="senha-confirm" required class="form-control m-3" placeholder="confirmar a senha" id="senha_confirmar" onkeyup="verificar" >
                     
                     <input type="submit" class="btn btn-outline-success m-3" value="Salvar">
 
